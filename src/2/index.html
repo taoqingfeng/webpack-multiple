@@ -1,0 +1,128 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-21 14:27:10
+ * @LastEditTime: 2020-08-05 09:17:17
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \ccdc-website\cpzx\yzj.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>负载均衡</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.0/animate.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="box animate__animated animate__fadeIn animate__slow">
+    <div class="J_header  header"></div>
+    <div class="banner">
+      <div class="banner-item" ></div>
+    </div>
+    <div class="tip">
+      <div class="tip-content"><img src="../images/tip-icon.png" alt=""> 当前位置：产品中心>云计算>网络>负载均衡</div>
+    </div>
+    <div class="section1 section">
+      <div class='section-title'><span class="section-title-text">产品优势</span></div>
+      <div class="section-box" >
+        <div class="section-content">
+              <li class='section1-item'>
+                <div class="icon icon1"></div>
+                <p class='tit'>可用性</p>
+                <p class='text'>通过冗余设计，自动移除异常节点，并将流量在正常节点之间重新路由，可用性高达99.95%。</p>
+              </li>
+              <li class='section1-item'>
+                <div class="icon icon2"></div>
+                <p class='tit'>性能</p>
+                <p class='text'>支持最高10万并发连接，满足用户的大流量需求；支持四层负载均衡（包含 TCP 协议和 UDP 协议）和七层负载均衡（包含 HTTP 协议和 HTTPS协议）。</p>
+              </li>
+              <li class='section1-item'>
+                <div class="icon icon3"></div>
+                <p class='tit'>经济</p>
+                <p class='text'>用户无需再购买负载均衡硬件，节省了硬件的投入及维护成本。</p>
+              </li>
+              <li class='section1-item'>
+                <div class="icon icon3"></div>
+                <p class='tit'>弹性</p>
+                <p class='text'>根据应用的流量，自动扩展处理能力，并可与弹性伸缩服务无缝集成，自动满足变化的流量需求。</p>
+              </li>
+          </div>
+      </div>
+    </div>
+    <div class="section2 section">
+      <div class="section-title"><span class='section-title-text'>产品功能</span></div>
+      <div class="section-box">
+        <div class="section-content">
+          <li class='section2-item'>
+            <img src="./images/section2-1.png" alt="">
+            <div class='des'>
+              <div class="tit">多协议转发</div>
+              <div class="text">支持用户使用4层（TCP协议）或7层（HTTP协议、HTTPS协议）的负载分发； HTTPS协议提供集中化证书管理服务； </div>
+            </div>
+          </li>
+          <li class='section2-item even'>
+            <img src="./images/section2-2.png" alt="" class="f_r">
+            <div class='des'>
+              <div class="tit">自动扩展</div>
+              <div class="text">根据用户的实际流量，自动扩展负载分发能力。</div>
+            </div>
+          </li>
+          <li class='section2-item'>
+            <img src="./images/section2-3.png" alt="">
+            <div class='des'>
+              <div class="tit">健康检查</div>
+              <div class="text">通过多种方法对后端云主机的运行状态进行检查，自动移除异常实例，恢复正常后，再继续进行转发，确保业务可用性。 </div>
+            </div>
+          </li>
+          <li class='section2-item even' >
+            <img src="./images/section2-4.png" alt="" class="f_r">
+            <div class='des'> 
+              <div class="tit">会话保持</div>
+              <div class="text">对TCP和HTTP协议都支持会话保持功能，将同一个用户的请求分发到后端同一个服务器上。 </div>
+            </div>
+          </li>
+          <li class='section2-item'>
+            <img src="./images/section2-5.png" alt="">
+            <div class='des'>
+              <div class="tit">实时监控</div>
+              <div class="text">提供实例、流量、连接数和数据包等实时监控信息，方便用户随时掌握服务状况。 </div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="section3 section">
+      <div class="section-title"><span class="section-title-text">应用场景</span></div>
+      <div class="section-box">
+        <div class="section-content">
+          <li class='section3-item'>
+            <img src="./images/3-1.png" alt="">
+            <div class="des">
+              <div class="tit">构建高可用服务</div>
+              <div class="text">云主机配合负载均衡一起使用，通过部署多主机提高服务的可用性，无需程序修改，即可方便的实现高可用方案。</div>
+            </div>
+          </li>
+          <li class='section3-item'>
+            <img src="./images/3-2.png" alt="">
+            <div class="des">
+              <div class="tit">业务弹性伸缩</div>
+              <div class="text">业务统一通过负载均衡的对外提供服务，当业务压力增加的时候，可通过向后端服务器池中添加主机来提升性能；当压力降低时，可减少主机，由于服务的 IP 不会发生变化，整个伸缩过程对访问者不产生影响。</div>
+            </div>
+          </li>
+          <li class='section3-item'>
+            <img src="./images/3-3.png" alt="">
+            <div class="des">
+              <div class="tit">高安全需求服务</div>
+              <div class="text">业务统一通过负载均衡的对外提供服务，业务对应云主机不可直接从公网访问，充分保证安全性。 </div>
+            </div>
+          </li>
+        </div> 
+      </div>
+    </div>
+    <div class="J_footer footer"></div> 
+    <div class="wx J_wx"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-22 10:19:46
+ * @LastEditTime: 2020-08-08 15:11:39
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \ccdc-website\wx.html
+--> 
+<div class='wx-box'>
+  <li class='totop J_toTop'>
+    <p>^</p>
+    <p>顶部</p>
+  </li>
+  <li class='J_kf'>
+    <div class="img img-kf"></div>
+    <div class='kf-hover'>
+      <div class='kf-box'><img src="/images/tel.png" alt=""> 400-990-6328</div>
+    </div>
+  </li>
+  <li class='J_w'>
+    <div class="img img-wx"></div>
+    <div class='w-box-hover'>
+      <img src="/images/wx-hover.png" alt="">
+      <p>扫码关注微信公众号</p>
+    </div>
+  </li>
+</div>
+<script>
+  $('.J_toTop').click(() => {
+    $('body,html').animate({ scrollTop: 0 }, 500);
+  });
+
+  $(document).scroll(() => {
+    const scroH = $(document).scrollTop(); // 滚动高度
+    if (scroH > 800) {
+      $('.wx-box').css('display', 'block');
+    } else {
+      $('.wx-box').css('display', 'none');
+    }
+  });
+</script>
